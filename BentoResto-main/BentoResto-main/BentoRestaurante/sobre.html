@@ -1,0 +1,83 @@
+
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuccina Bendita</title>
+    <!-- BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- LINK TO CSS FILE-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- script jquery to bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar -->
+    <script src="./assets/js/progressbar.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+   <header>
+    <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a href="D:\xampp\htdocs\PizzariaBendita\index.html" class="navbar-brand">
+                <img id="logo-navbar" src=".\assets\IMG\logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav" id="navbar-nav">
+                    <a class="nav-item nav-link" id="home-menu" href="D:\xampp\htdocs\PizzariaBendita\index.html">Home</a>
+                    <a class="nav-item nav-link" id="promocoes-menu" href="D:\xampp\htdocs\PizzariaBendita\promocoes.html">Promoções</a>
+                    <a class="nav-item nav-link" id="pizzas-menu" href="D:\xampp\htdocs\PizzariaBendita\promocoes.html">Pizzas</a>
+                    <a class="nav-item nav-link" id="pratos-menu" href="D:\xampp\htdocs\PizzariaBendita\pizzas.html">Pratos</a>
+                    <a class="nav-item nav-link" id="sobremesas-menu" href="D:\xampp\htdocs\PizzariaBendita\sobremesas.html">Sobremesas</a>
+                    <a class="nav-item nav-link" id="bebida-menu" href="D:\xampp\htdocs\PizzariaBendita\bebidas.html">Bevanda</a>
+                    <a class="nav-item nav-link" href="#contato">Sobre</a><!-- trabalhe conosco.html -->
+                </div>
+            </div>
+        </nav>
+    </div>
+   </header>
+    <main>
+        <section id="nulo">
+            <div>
+                #
+            </div>
+        </section>
+        <div id="contato">
+            <div class="contato">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 p-0">
+                            <h2>Inscrição</h2>
+                            <form ><!--action dentro do form se for tratar e enviar a informação pra fazer o link com o input-->
+                                <label class="form-usuario">Usuário:</label>
+                                <input type="Texto" name="usuario" class="form-control" placeholder="Insira nome de usuário.">
+                                <label class="form-senha">Senha:</label>
+                                <input type="password" name="password" class="form-control" placeholder="Digite sua senha.">
+                                <label class="form-senha">Confirme sua senha:</label>
+                                <input type="password" name="password" class="form-control" placeholder="Confirme sua senha.">
+                                <label class="form-email">Email:</label>
+                                <input type="Email" name="Email" class="form-control" placeholder="Insira seu email.">
+                                <label class="form-label">Observações e/ou sugestões:</label>
+                                <textarea class="form-control"></textarea>
+                                <button class="btn btn-danger">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    
+</body>
+<script src="./assets/js/scripts.js"></script>
